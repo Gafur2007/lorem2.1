@@ -1,0 +1,35 @@
+
+
+.hero-span {
+    width: 140px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .hero-img {
+    display: inline-block;
+  }
+
+
+  .hero-label {
+    width: 150px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    align-items: center;
+    display: flex;
+  }
